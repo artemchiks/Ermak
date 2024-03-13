@@ -1,0 +1,245 @@
+header {
+  position: relative;
+  z-index: 4;
+}
+.promo::after {
+  content: "";
+  background-image: url("./img/agent.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+li,
+a,
+ul {
+  text-decoration: none !important;
+  list-style: none;
+}
+.container__main {
+  text-align: center;
+  position: relative;
+  z-index: 8;
+  margin-top: 20px;
+  border-radius: 10px;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.main__text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.reklama__agenctvo {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.flex__card {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+  padding-bottom: 30px;
+}
+.card-img-top {
+  width: 200px !important;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+.main__agenstvo {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #2a2a2a;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px #cacaca;
+}
+.info__name-agenstvo {
+  padding-top: 300px;
+  min-height: 100vh;
+}
+.uslugi {
+  color: #fff !important;
+}
+.preimush h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.preimush,
+.krim ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.yalta {
+  border-radius: 5%;
+}
+.preimush,
+.krim ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.footer {
+  padding: 30px 0 30px;
+  background-color: #363636;
+  color: #fff;
+}
+.information__dop {
+  margin-left: 30px !important;
+}
+.contacts {
+  font-size: 18px;
+  font-weight: 300;
+}
+.bulito {
+  color: #fff;
+}
+.uslugi__text {
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+}
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__info dt {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.social__list {
+  display: flex;
+  gap: 50px;
+}
+
+.flex__footer {
+  display: flex;
+  justify-content: center;
+  gap: 180px;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.flexx__krim {
+  display: flex;
+  justify-content: space-between;
+}
+
+.krim {
+  margin-bottom: 100px;
+}
+.footer__date {
+  display: flex;
+  justify-content: center;
+}
+.swiper {
+  display: flex;
+  justify-content: center;
+}
+.imgs {
+  width: 300px;
+  height: 400px;
+}
+.actial__text {
+  margin-bottom: 20px;
+}
+.swiper-button-prev {
+  margin-left: 250px;
+}
+.swiper-button-next {
+  margin-right: 250px;
+}
+.text__imgs {
+  font-size: 18px;
+}
+.swiper {
+  margin-bottom: 30px;
+}
+.btnAbout {
+  background: none;
+  width: 150px;
+  border: 1px solid green;
+}
+.flex__btn {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.submit {
+  margin-top: 10px;
+  border-radius: 10px 10px 10px 10px;
+  width: 200px;
+  margin-left: 120px;
+  border: 1px solid green;
+  background: none;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 300px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+}
+
+.close {
+  color: #ff0707;
+  margin-left: 440px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+}
+
+.submit {
+  margin-top: 10px;
+}
+
+.email,
+.number {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+}
+
+.email:focus,
+.number:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.15rem rgba(0, 123, 255, 0.25);
+}
